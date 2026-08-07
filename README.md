@@ -1,9 +1,10 @@
-# Step Assignment
+# STEP Assignments
 
-Repository for Step Assignments
+This Repository handles the assignments for STEP.
 
-## Structure
+## Repository Structure
 
 - `main`: Primary branch
-- `week-1`: Week 1 submissions
-- `week-2`: Week 2 submissions
+- `week-1/code-1` to `week-1/code-5`: Week 1 individual problem branches
+- `week-1/all`: Week 1 combined branch
+- `week-2/code-1` to `week-2/code-5`: Week 2 individual problem branches (upcoming)
