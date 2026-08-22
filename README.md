@@ -1,12 +1,16 @@
-# STEP Assignments
+# STEP Semester 3 Assignments
 
-This repository contains the programming assignments and solutions for the STEP program, organized by week.
+This repository contains the programming assignments and class problems for the STEP Semester 3 coursework.
 
 ## Branching Strategy
 
-This project uses a standard feature branch workflow:
+The repository follows a clean and isolated branching strategy:
+- `main`: Contains only the repository documentation (`README.md`).
+- `develop`: Contains the base, empty project skeleton.
+- `feature/session_n`: Feature branches holding actual Java code for class and assignment problems, organized by topic packages.
 
-- `main`: Production-ready code containing completed and verified assignments.
-- `dev`: Development branch for integrating and reviewing features before they merge into `main`.
-- `feature/week-1-*`: Individual feature branches for Week 1 problem solutions.
-- `feature/week-2-*`: Individual feature branches for Week 2 problem solutions.
+## Structure
+
+Code inside the feature branches is structured into two main sub-packages per topic:
+- `class_problems`: Problems solved during the session.
+- `assigment_problems`: Problems assigned as homework.
