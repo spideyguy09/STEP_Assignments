@@ -1,8 +1,12 @@
-# Week One STEP Assignments
+# STEP Assignments
 
-This Repository handles the assignments for STEP.
+This repository contains the programming assignments and solutions for the STEP program, organized by week.
 
-## Repository Structure
+## Branching Strategy
 
-- `main`: Primary branch
-- `week-1/code-1` to `week-1/code-5`: Week 1 individual problem branches
+This project uses a standard feature branch workflow:
+
+- `main`: Production-ready code containing completed and verified assignments.
+- `dev`: Development branch for integrating and reviewing features before they merge into `main`.
+- `feature/week-1-*`: Individual feature branches for Week 1 problem solutions.
+- `feature/week-2-*`: Individual feature branches for Week 2 problem solutions.
